@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.kim_wonhee.a170323.ImageShow"
+    android:id="@+id/layout">
+
+     <ImageView
+         android:id="@+id/chicken"
+         android:layout_width="150dp"
+         android:layout_height="150dp"
+         android:visibility="invisible"
+         android:layout_gravity="center"
+         app:srcCompat="@drawable/chicken"
+         tools:layout_editor_absoluteX="30dp"
+         tools:layout_editor_absoluteY="130dp" />
+
+    <ImageView
+        android:id="@+id/pasta"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:visibility="invisible"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/pasta"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="130dp" />
+
+    <TextView
+        android:id="@+id/text_chicken"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="500dp"
+        android:text="겁나 맛있는 치킨"
+        android:textColor="#6c4740"
+        android:textSize="10pt"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/text_pasta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="500dp"
+        android:text="새콤한 스파게티"
+        android:textColor="#6c4740"
+        android:textSize="10pt"
+        android:visibility="invisible" />
+
+
+</FrameLayout>
