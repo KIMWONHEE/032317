@@ -1,5 +1,6 @@
 package com.example.kim_wonhee.a170323;
 
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Color;
@@ -130,6 +131,11 @@ public class ImageShow extends AppCompatActivity {
                 }
                 item.setChecked(true);
             }
+        }
+        else if (item.getItemId() == R.id.cal) {
+            Intent intent = new Intent(this,Cal.class);
+            startActivity(intent);
+            item.setChecked(true);
         }
         return super.onOptionsItemSelected(item);
     }

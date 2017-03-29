@@ -45,4 +45,10 @@
             android:title="스파게티" />
     </group>
 
+    <item
+        android:id="@+id/cal"
+        android:checkable="true"
+        android:title="각종 계산기" />
+
+
 </menu>
