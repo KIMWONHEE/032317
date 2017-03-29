@@ -13,7 +13,7 @@
         android:layout_gravity="center">
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/textView5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
@@ -22,7 +22,7 @@
             android:textSize="11pt"/>
 
         <EditText
-            android:id="@+id/editText"
+            android:id="@+id/editText3"
             android:layout_width="320dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
@@ -34,7 +34,7 @@
             android:textSize="10pt"/>
 
         <TextView
-            android:id="@+id/textView4"
+            android:id="@+id/textView6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
@@ -44,18 +44,18 @@
             android:textSize="10pt"/>
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/button2"
             android:layout_width="320dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
             android:textSize="10pt"
             android:textColor="#ffffff"
-            android:background="#aeffb5"
+            android:background="#ffc7a9"
             android:text="평을 제곱미터로 변환"
             android:layout_gravity="center_horizontal"/>
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/button3"
             android:layout_width="320dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"

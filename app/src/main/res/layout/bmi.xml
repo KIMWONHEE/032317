@@ -72,7 +72,8 @@
             android:textColor="#ffffff"
             android:background="#ff9d9d"
             android:text="BMI 계산 결과"
-            android:layout_gravity="center_horizontal"/>
+            android:layout_gravity="center_horizontal"
+            android:onClick="onMyClick1"/>
 
         <TextView
             android:id="@+id/textView4"
